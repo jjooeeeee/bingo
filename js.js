@@ -41,6 +41,7 @@ var shuffle = function(array) {
   }
   return array;
 };
+
 // Did I just steal this code from Wikipedia, or something?
 /*
 var insertToCard = function(array) {
