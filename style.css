@@ -1,8 +1,19 @@
+@font-face {
+  font-family: 'AmazonEmberLight';
+  src: url('https://s3-us-west-2.amazonaws.com/engineering-excellence-test-bucket/Font-Test/Amazon-Ember/AmazonEmber_Lt.ttf')  format('truetype'); /* Safari, Android, iOS */
+}
+
+@font-face {
+  font-family: 'AmazonEmber';
+  src: url('https://s3-us-west-2.amazonaws.com/engineering-excellence-test-bucket/Font-Test/Amazon-Ember/AmazonEmber_Rg.ttf')  format('truetype'); /* Safari, Android, iOS */
+} 
+
+
 body {
    box-sizing: border-box;
    background: #2a2724;
    color: #cf6a32;
-   font-family: "Helvetica Neue", Helvetica, sans-serif;
+   font-family: 'AmazonEmber', sans-serif;
    user-select: none;
 }
  *, *::before, *::after {
