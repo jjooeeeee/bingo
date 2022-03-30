@@ -59,7 +59,7 @@ body {
 }
  label input:checked + .mark {
    background: transparent;
-   color: #2a2724;
+   color: #232F3E;
 }
  label .mark {
    display: flex;
