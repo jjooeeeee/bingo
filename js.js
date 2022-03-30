@@ -43,7 +43,7 @@ var shuffle = function(array) {
 };
 
 // Did I just steal this code from Wikipedia, or something?
-/*
+
 var insertToCard = function(array) {
   var slot = 25;
   while (slot) {
@@ -51,7 +51,7 @@ var insertToCard = function(array) {
     slot--;
   }
 };
-*/
+
 
 $(document).ready(function() {
   var shuffledLines = shuffle(lines);
