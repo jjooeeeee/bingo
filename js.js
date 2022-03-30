@@ -1,4 +1,5 @@
 var lines = [
+  // Credits to ster, gamingmedley, darkness3560, JettTheMedic, and many other redditors
   "Speaks more than 2 languages",
   "Lives in a warm environment",
   "Has 10+ years of experience in their field",
@@ -40,14 +41,16 @@ var shuffle = function(array) {
   }
   return array;
 };
-
-/* var insertToCard = function(array) {
+// Did I just steal this code from Wikipedia, or something?
+/*
+var insertToCard = function(array) {
   var slot = 25;
   while (slot) {
     $("label:nth-child(" + slot + ") .mark span").text(array[slot + 1]);
     slot--;
   }
-}; */
+};
+*/
 
 $(document).ready(function() {
   var shuffledLines = shuffle(lines);
