@@ -1,4 +1,4 @@
-var lines = [
+/* var lines = [
   // Credits to ster, gamingmedley, darkness3560, JettTheMedic, and many other redditors
   "Speaks more than 2 languages",
   "Lives in a warm environment",
@@ -57,6 +57,7 @@ var insertToCard = function(array) {
 */
 
 
+/*
 $(document).ready(function() {
   var shuffledLines = shuffle(lines);
   insertToCard(shuffledLines); // #hellaswag
