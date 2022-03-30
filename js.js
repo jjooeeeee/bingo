@@ -25,11 +25,6 @@ var lines = [
   "Was born in a different country then where they currently live",
   "Has a twin",
   "Met a celebrity",
-  "Test2",
-    "Test3",
-    "Test4",
-    "Test5",
-  
 ];
 
 // Fisher-Yates Shuffle
