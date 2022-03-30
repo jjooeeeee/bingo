@@ -27,7 +27,7 @@ var lines = [
 ];
 
 // Fisher-Yates Shuffle
-/* var shuffle = function(array) {
+ var shuffle = function(array) {
   var m = array.length, t, i;
   // While there remain elements to shuffle
   while (m) {
@@ -41,7 +41,7 @@ var lines = [
   return array;
 };
 
-  var insertToCard = function(array) {
+/*  var insertToCard = function(array) {
   var slot = 25;
   while (slot) {
     $("label:nth-child(" + slot + ") .mark span").text(array[slot + 1]);
