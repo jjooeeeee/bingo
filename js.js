@@ -27,6 +27,7 @@ var lines = [
   "Met a celebrity",
 ];
 
+/*
 // Fisher-Yates Shuffle
 var shuffle = function(array) {
   var m = array.length, t, i;
@@ -41,6 +42,8 @@ var shuffle = function(array) {
   }
   return array;
 };
+
+*/
 
 // Did I just steal this code from Wikipedia, or something?
 
